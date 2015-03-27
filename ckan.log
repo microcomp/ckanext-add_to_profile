@@ -1,0 +1,588 @@
+2015-03-27 14:50:02,526 WARNI [root] /////////////////////////////////////////
+2015-03-27 14:50:02,526 WARNI [root] None
+2015-03-27 14:50:02,662 INFO  [saml2] Logging started
+2015-03-27 14:51:00,563 WARNI [root] /////////////////////////////////////////
+2015-03-27 14:51:00,563 WARNI [root] None
+2015-03-27 14:51:00,683 INFO  [saml2] Logging started
+2015-03-27 14:52:27,446 WARNI [root] False
+2015-03-27 14:52:27,446 WARNI [root] http://192.168.21.27:5000/
+2015-03-27 14:52:27,820 INFO  [ckan.lib.base]  /api/3/action/resource_search render time 0.092 seconds
+2015-03-27 14:52:27,824 WARNI [root] False
+2015-03-27 14:52:27,824 WARNI [root] http://192.168.21.27:5000/
+2015-03-27 14:52:27,975 INFO  [ckan.lib.base]  /api/3/action/resource_search render time 0.026 seconds
+2015-03-27 14:52:27,978 WARNI [root] False
+2015-03-27 14:52:27,978 WARNI [root] http://192.168.21.27:5000/
+2015-03-27 14:52:28,125 INFO  [ckan.lib.base]  /api/3/action/resource_search render time 0.020 seconds
+2015-03-27 14:52:28,127 WARNI [root] False
+2015-03-27 14:52:28,127 WARNI [root] http://192.168.21.27:5000/
+2015-03-27 14:52:28,269 INFO  [ckan.lib.base]  /api/3/action/resource_search render time 0.018 seconds
+2015-03-27 14:52:28,271 WARNI [root] False
+2015-03-27 14:52:28,272 WARNI [root] http://192.168.21.27:5000/
+2015-03-27 14:52:28,418 INFO  [ckan.lib.base]  /api/3/action/resource_search render time 0.020 seconds
+2015-03-27 14:52:28,420 WARNI [root] False
+2015-03-27 14:52:28,420 WARNI [root] http://192.168.21.27:5000/
+2015-03-27 14:52:28,565 INFO  [ckan.lib.base]  /api/3/action/resource_search render time 0.020 seconds
+2015-03-27 14:52:28,568 WARNI [root] False
+2015-03-27 14:52:28,568 WARNI [root] http://192.168.21.27:5000/
+2015-03-27 14:52:28,713 INFO  [ckan.lib.base]  /api/3/action/resource_search render time 0.020 seconds
+2015-03-27 14:52:28,715 WARNI [root] False
+2015-03-27 14:52:28,715 WARNI [root] http://192.168.21.27:5000/
+2015-03-27 14:52:28,876 INFO  [ckan.lib.base]  /api/3/action/resource_search render time 0.021 seconds
+2015-03-27 14:52:28,878 WARNI [root] False
+2015-03-27 14:52:28,879 WARNI [root] http://192.168.21.27:5000/
+2015-03-27 14:52:29,032 INFO  [ckan.lib.base]  /api/3/action/resource_search render time 0.026 seconds
+2015-03-27 14:52:29,035 WARNI [root] False
+2015-03-27 14:52:29,035 WARNI [root] http://192.168.21.27:5000/
+2015-03-27 14:52:29,179 INFO  [ckan.lib.base]  /api/3/action/resource_search render time 0.021 seconds
+2015-03-27 14:52:30,083 INFO  [ckan.lib.base]  / render time 3.277 seconds
+2015-03-27 14:52:30,656 INFO  [ckan.lib.base]  /api/i18n/sk render time 0.004 seconds
+2015-03-27 14:52:30,983 INFO  [ckan.lib.base]  /select2x2.png render time 0.015 seconds
+2015-03-27 14:52:31,359 INFO  [ckan.lib.base]  /select2x2.png render time 0.112 seconds
+2015-03-27 14:52:37,597 WARNI [root] False
+2015-03-27 14:52:37,597 WARNI [root] http://192.168.21.27:5000/
+2015-03-27 14:52:37,794 INFO  [ckan.lib.base]  /api/3/action/resource_search render time 0.071 seconds
+2015-03-27 14:52:37,798 WARNI [root] False
+2015-03-27 14:52:37,798 WARNI [root] http://192.168.21.27:5000/
+2015-03-27 14:52:37,944 INFO  [ckan.lib.base]  /api/3/action/resource_search render time 0.020 seconds
+2015-03-27 14:52:37,947 WARNI [root] False
+2015-03-27 14:52:37,947 WARNI [root] http://192.168.21.27:5000/
+2015-03-27 14:52:38,480 INFO  [ckan.lib.base]  /api/3/action/resource_search render time 0.065 seconds
+2015-03-27 14:52:38,495 WARNI [root] False
+2015-03-27 14:52:38,495 WARNI [root] http://192.168.21.27:5000/
+2015-03-27 14:52:38,650 INFO  [ckan.lib.base]  /admin render time 0.571 seconds
+2015-03-27 14:52:38,694 INFO  [ckan.lib.base]  /api/3/action/resource_search render time 0.036 seconds
+2015-03-27 14:52:38,696 WARNI [root] False
+2015-03-27 14:52:38,697 WARNI [root] http://192.168.21.27:5000/
+2015-03-27 14:52:38,827 INFO  [ckan.lib.base]  /api/action/datastore_search render time 0.350 seconds
+2015-03-27 14:52:38,854 INFO  [ckan.lib.base]  /api/3/action/resource_search render time 0.021 seconds
+2015-03-27 14:52:38,857 WARNI [root] False
+2015-03-27 14:52:38,857 WARNI [root] http://192.168.21.27:5000/
+2015-03-27 14:52:39,135 INFO  [ckan.lib.base]  /api/3/action/resource_search render time 0.027 seconds
+2015-03-27 14:52:39,137 WARNI [root] False
+2015-03-27 14:52:39,137 WARNI [root] http://192.168.21.27:5000/
+2015-03-27 14:52:39,699 INFO  [ckan.lib.base]  /api/3/action/resource_search render time 0.147 seconds
+2015-03-27 14:52:39,703 WARNI [root] False
+2015-03-27 14:52:39,703 WARNI [root] http://192.168.21.27:5000/
+2015-03-27 14:52:39,924 INFO  [ckan.lib.base]  /api/3/action/resource_search render time 0.063 seconds
+2015-03-27 14:52:39,936 WARNI [root] False
+2015-03-27 14:52:39,936 WARNI [root] http://192.168.21.27:5000/
+2015-03-27 14:52:40,100 INFO  [ckan.lib.base]  /admin render time 0.550 seconds
+2015-03-27 14:52:40,152 INFO  [ckan.lib.base]  /api/3/action/resource_search render time 0.045 seconds
+2015-03-27 14:52:40,155 WARNI [root] False
+2015-03-27 14:52:40,155 WARNI [root] http://192.168.21.27:5000/
+2015-03-27 14:52:40,368 INFO  [ckan.lib.base]  /api/3/action/resource_search render time 0.054 seconds
+2015-03-27 14:52:40,443 INFO  [ckan.lib.base]  / render time 3.026 seconds
+2015-03-27 14:52:40,466 WARNI [root] False
+2015-03-27 14:52:40,466 WARNI [root] http://192.168.21.27:5000/
+2015-03-27 14:52:40,686 INFO  [ckan.lib.base]  /api/3/action/resource_search render time 0.083 seconds
+2015-03-27 14:52:40,689 WARNI [root] False
+2015-03-27 14:52:40,689 WARNI [root] http://192.168.21.27:5000/
+2015-03-27 14:52:40,841 INFO  [ckan.lib.base]  /api/3/action/resource_search render time 0.026 seconds
+2015-03-27 14:52:40,844 WARNI [root] False
+2015-03-27 14:52:40,844 WARNI [root] http://192.168.21.27:5000/
+2015-03-27 14:52:41,003 INFO  [ckan.lib.base]  /api/3/action/resource_search render time 0.031 seconds
+2015-03-27 14:52:41,006 WARNI [root] False
+2015-03-27 14:52:41,006 WARNI [root] http://192.168.21.27:5000/
+2015-03-27 14:52:41,174 INFO  [ckan.lib.base]  /api/3/action/resource_search render time 0.024 seconds
+2015-03-27 14:52:41,176 WARNI [root] False
+2015-03-27 14:52:41,177 WARNI [root] http://192.168.21.27:5000/
+2015-03-27 14:52:41,330 INFO  [ckan.lib.base]  /api/3/action/resource_search render time 0.027 seconds
+2015-03-27 14:52:41,333 WARNI [root] False
+2015-03-27 14:52:41,333 WARNI [root] http://192.168.21.27:5000/
+2015-03-27 14:52:41,488 INFO  [ckan.lib.base]  /api/3/action/resource_search render time 0.027 seconds
+2015-03-27 14:52:41,491 WARNI [root] False
+2015-03-27 14:52:41,491 WARNI [root] http://192.168.21.27:5000/
+2015-03-27 14:52:41,799 INFO  [ckan.lib.base]  /api/3/action/resource_search render time 0.027 seconds
+2015-03-27 14:52:41,802 WARNI [root] False
+2015-03-27 14:52:41,802 WARNI [root] http://192.168.21.27:5000/
+2015-03-27 14:52:42,057 INFO  [ckan.lib.base]  /SPARQL render time 0.009 seconds
+2015-03-27 14:52:42,204 INFO  [ckan.lib.base]  /api/3/action/resource_search render time 0.151 seconds
+2015-03-27 14:52:42,206 WARNI [root] False
+2015-03-27 14:52:42,206 WARNI [root] http://192.168.21.27:5000/
+2015-03-27 14:52:42,391 INFO  [ckan.lib.base]  /api/3/action/resource_search render time 0.036 seconds
+2015-03-27 14:52:42,394 WARNI [root] False
+2015-03-27 14:52:42,394 WARNI [root] http://192.168.21.27:5000/
+2015-03-27 14:52:42,571 INFO  [ckan.lib.base]  /SPARQL render time 0.383 seconds
+2015-03-27 14:52:42,599 INFO  [ckan.lib.base]  /api/3/action/resource_search render time 0.042 seconds
+2015-03-27 14:52:42,665 INFO  [ckan.lib.base]  / render time 2.981 seconds
+2015-03-27 14:52:42,865 INFO  [ckan.lib.base]  /api/i18n/sk render time 0.003 seconds
+2015-03-27 14:52:47,805 WARNI [root] False
+2015-03-27 14:52:47,805 WARNI [root] http://192.168.21.27:5000/
+2015-03-27 14:52:48,156 WARNI [root] False
+2015-03-27 14:52:48,157 WARNI [root] http://192.168.21.27:5000/
+2015-03-27 14:52:48,614 INFO  [ckan.lib.base]  /api/3/action/resource_search render time 0.463 seconds
+2015-03-27 14:52:48,617 WARNI [root] False
+2015-03-27 14:52:48,617 WARNI [root] http://192.168.21.27:5000/
+2015-03-27 14:52:48,754 INFO  [ckan.lib.base]  /api/3/action/resource_search render time 0.244 seconds
+2015-03-27 14:52:48,758 WARNI [root] False
+2015-03-27 14:52:48,758 WARNI [root] http://192.168.21.27:5000/
+2015-03-27 14:52:48,905 INFO  [ckan.lib.base]  /api/3/action/resource_search render time 0.153 seconds
+2015-03-27 14:52:48,908 WARNI [root] False
+2015-03-27 14:52:48,908 WARNI [root] http://192.168.21.27:5000/
+2015-03-27 14:52:49,057 INFO  [ckan.lib.base]  /api/3/action/resource_search render time 0.154 seconds
+2015-03-27 14:52:49,060 WARNI [root] False
+2015-03-27 14:52:49,060 WARNI [root] http://192.168.21.27:5000/
+2015-03-27 14:52:49,209 INFO  [ckan.lib.base]  /api/3/action/resource_search render time 0.154 seconds
+2015-03-27 14:52:49,212 WARNI [root] False
+2015-03-27 14:52:49,212 WARNI [root] http://192.168.21.27:5000/
+2015-03-27 14:52:49,366 INFO  [ckan.lib.base]  /api/3/action/resource_search render time 0.159 seconds
+2015-03-27 14:52:49,377 WARNI [root] False
+2015-03-27 14:52:49,377 WARNI [root] http://192.168.21.27:5000/
+2015-03-27 14:52:49,518 INFO  [ckan.lib.base]  /api/3/action/resource_search render time 0.154 seconds
+2015-03-27 14:52:49,520 WARNI [root] False
+2015-03-27 14:52:49,520 WARNI [root] http://192.168.21.27:5000/
+2015-03-27 14:52:49,681 INFO  [ckan.lib.base]  /api/3/action/resource_search render time 0.024 seconds
+2015-03-27 14:52:49,693 WARNI [root] False
+2015-03-27 14:52:49,693 WARNI [root] http://192.168.21.27:5000/
+2015-03-27 14:52:49,831 INFO  [ckan.lib.base]  /api/3/action/resource_search render time 0.156 seconds
+2015-03-27 14:52:49,833 WARNI [root] False
+2015-03-27 14:52:49,834 WARNI [root] http://192.168.21.27:5000/
+2015-03-27 14:52:49,981 INFO  [ckan.lib.base]  /api/3/action/resource_search render time 0.047 seconds
+2015-03-27 14:52:49,993 WARNI [root] False
+2015-03-27 14:52:49,993 WARNI [root] http://192.168.21.27:5000/
+2015-03-27 14:52:50,134 INFO  [ckan.lib.base]  /api/3/action/resource_search render time 0.156 seconds
+2015-03-27 14:52:50,136 WARNI [root] False
+2015-03-27 14:52:50,136 WARNI [root] http://192.168.21.27:5000/
+2015-03-27 14:52:50,297 INFO  [ckan.lib.base]  /api/3/action/resource_search render time 0.035 seconds
+2015-03-27 14:52:50,305 WARNI [root] False
+2015-03-27 14:52:50,305 WARNI [root] http://192.168.21.27:5000/
+2015-03-27 14:52:50,437 INFO  [ckan.lib.base]  /api/3/action/resource_search render time 0.157 seconds
+2015-03-27 14:52:50,704 WARNI [root] False
+2015-03-27 14:52:50,705 WARNI [root] http://192.168.21.27:5000/
+2015-03-27 14:52:50,871 INFO  [ckan.lib.base]  /api/3/action/resource_search render time 0.109 seconds
+2015-03-27 14:52:50,874 WARNI [root] False
+2015-03-27 14:52:50,874 WARNI [root] http://192.168.21.27:5000/
+2015-03-27 14:52:51,056 INFO  [ckan.lib.base]  /api/3/action/resource_search render time 0.050 seconds
+2015-03-27 14:52:51,061 WARNI [root] False
+2015-03-27 14:52:51,062 WARNI [root] http://192.168.21.27:5000/
+2015-03-27 14:52:51,207 INFO  [ckan.lib.base]  /api/3/action/resource_search render time 0.168 seconds
+2015-03-27 14:52:51,214 WARNI [root] False
+2015-03-27 14:52:51,214 WARNI [root] http://192.168.21.27:5000/
+2015-03-27 14:52:51,377 INFO  [ckan.lib.base]  /api/3/action/resource_search render time 0.048 seconds
+2015-03-27 14:52:51,382 WARNI [root] False
+2015-03-27 14:52:51,383 WARNI [root] http://192.168.21.27:5000/
+2015-03-27 14:52:51,558 INFO  [ckan.lib.base]  /api/3/action/resource_search render time 0.046 seconds
+2015-03-27 14:52:51,565 WARNI [root] False
+2015-03-27 14:52:51,565 WARNI [root] http://192.168.21.27:5000/
+2015-03-27 14:52:51,639 INFO  [ckan.lib.base]  /api/3/action/resource_search render time 0.098 seconds
+2015-03-27 14:52:51,709 INFO  [ckan.lib.base]  / render time 4.359 seconds
+2015-03-27 14:52:51,817 INFO  [ckan.lib.base]  /api/3/action/resource_search render time 0.029 seconds
+2015-03-27 14:52:51,890 INFO  [ckan.lib.base]  / render time 4.316 seconds
+2015-03-27 14:52:52,853 INFO  [ckan.lib.base]  /dataset render time 2.153 seconds
+2015-03-27 14:52:53,393 INFO  [ckan.lib.base]  /api/i18n/sk render time 0.004 seconds
+2015-03-27 14:52:59,863 INFO  [ckan.lib.base]  /organization render time 0.303 seconds
+2015-03-27 14:53:00,516 INFO  [ckan.lib.base]  /api/i18n/sk render time 0.002 seconds
+2015-03-27 14:53:01,715 INFO  [ckan.lib.base]  /group render time 0.225 seconds
+2015-03-27 14:53:01,985 INFO  [ckan.lib.base]  /api/i18n/sk render time 0.004 seconds
+2015-03-27 14:53:03,318 INFO  [ckan.lib.base]  /about render time 0.267 seconds
+2015-03-27 14:53:03,802 INFO  [ckan.lib.base]  /api/i18n/sk render time 0.005 seconds
+2015-03-27 14:53:04,493 WARNI [root] public
+2015-03-27 14:53:05,034 WARNI [root] private
+2015-03-27 14:53:05,038 WARNI [root] private
+2015-03-27 14:53:05,043 WARNI [root] public
+2015-03-27 14:53:05,045 WARNI [root] public
+2015-03-27 14:53:05,048 WARNI [root] public
+2015-03-27 14:53:05,050 WARNI [root] public
+2015-03-27 14:53:05,055 WARNI [root] public
+2015-03-27 14:53:05,057 WARNI [root] public
+2015-03-27 14:53:05,064 WARNI [root] private
+2015-03-27 14:53:05,069 WARNI [root] private
+2015-03-27 14:53:05,073 WARNI [root] private
+2015-03-27 14:53:05,076 WARNI [root] private
+2015-03-27 14:53:05,101 INFO  [ckan.lib.base]  /apps render time 0.657 seconds
+2015-03-27 14:53:05,325 INFO  [ckan.lib.base]  /api/i18n/sk render time 0.003 seconds
+2015-03-27 14:53:11,929 WARNI [root] False
+2015-03-27 14:53:11,929 WARNI [root] http://192.168.21.27:5000/
+2015-03-27 14:53:12,524 INFO  [ckan.lib.base]  /admin render time 0.331 seconds
+2015-03-27 14:53:12,564 INFO  [ckan.lib.base]  /api/3/action/resource_search render time 0.367 seconds
+2015-03-27 14:53:12,568 WARNI [root] False
+2015-03-27 14:53:12,568 WARNI [root] http://192.168.21.27:5000/
+2015-03-27 14:53:12,734 INFO  [ckan.lib.base]  /api/3/action/resource_search render time 0.031 seconds
+2015-03-27 14:53:12,737 WARNI [root] False
+2015-03-27 14:53:12,737 WARNI [root] http://192.168.21.27:5000/
+2015-03-27 14:53:13,017 INFO  [ckan.lib.base]  /api/3/action/resource_search render time 0.147 seconds
+2015-03-27 14:53:13,020 WARNI [root] False
+2015-03-27 14:53:13,020 WARNI [root] http://192.168.21.27:5000/
+2015-03-27 14:53:13,089 INFO  [ckan.lib.base]  /api/i18n/sk render time 0.074 seconds
+2015-03-27 14:53:13,169 INFO  [ckan.lib.base]  /api/3/action/resource_search render time 0.018 seconds
+2015-03-27 14:53:13,171 WARNI [root] False
+2015-03-27 14:53:13,172 WARNI [root] http://192.168.21.27:5000/
+2015-03-27 14:53:13,331 INFO  [ckan.lib.base]  /api/3/action/resource_search render time 0.022 seconds
+2015-03-27 14:53:13,333 WARNI [root] False
+2015-03-27 14:53:13,334 WARNI [root] http://192.168.21.27:5000/
+2015-03-27 14:53:13,606 INFO  [ckan.lib.base]  /api/3/action/resource_search render time 0.150 seconds
+2015-03-27 14:53:13,608 WARNI [root] False
+2015-03-27 14:53:13,609 WARNI [root] http://192.168.21.27:5000/
+2015-03-27 14:53:13,792 INFO  [ckan.lib.base]  /api/3/action/resource_search render time 0.043 seconds
+2015-03-27 14:53:13,795 WARNI [root] False
+2015-03-27 14:53:13,795 WARNI [root] http://192.168.21.27:5000/
+2015-03-27 14:53:13,974 INFO  [ckan.lib.base]  /admin render time 0.385 seconds
+2015-03-27 14:53:14,006 INFO  [ckan.lib.base]  /api/3/action/resource_search render time 0.031 seconds
+2015-03-27 14:53:14,008 WARNI [root] False
+2015-03-27 14:53:14,009 WARNI [root] http://192.168.21.27:5000/
+2015-03-27 14:53:14,314 INFO  [ckan.lib.base]  /api/3/action/resource_search render time 0.049 seconds
+2015-03-27 14:53:14,317 WARNI [root] False
+2015-03-27 14:53:14,317 WARNI [root] http://192.168.21.27:5000/
+2015-03-27 14:53:14,687 INFO  [ckan.lib.base]  /api/3/action/resource_search render time 0.051 seconds
+2015-03-27 14:53:14,758 INFO  [ckan.lib.base]  / render time 3.041 seconds
+2015-03-27 14:53:14,805 INFO  [ckan.lib.base]  /admin/sla render time 0.545 seconds
+2015-03-27 14:53:17,435 INFO  [ckan.lib.base]  /admin/sparql render time 0.014 seconds
+2015-03-27 14:53:17,737 INFO  [ckan.lib.base]  /admin/sparql render time 0.160 seconds
+2015-03-27 14:53:18,168 INFO  [ckan.lib.base]  /api/i18n/sk render time 0.006 seconds
+2015-03-27 14:53:21,481 INFO  [ckan.lib.base]  /dataset render time 0.846 seconds
+2015-03-27 14:53:22,053 INFO  [ckan.lib.base]  /api/i18n/sk render time 0.004 seconds
+2015-03-27 14:53:34,239 INFO  [ckanext.dataset.plugin] geo_tags vocabulary already exists, skipping.
+2015-03-27 14:53:34,299 INFO  [ckanext.edem.plugin] available orgs : [{'display_name': u'ANEXT', 'description': u'', 'title': u'ANEXT', 'image_display_url': u'http://stiavnickykrostriatlon.sk/wp-content/uploads/2014/06/n_ANEXT.png', 'approval_status': u'approved', 'is_organization': True, 'state': u'active', 'image_url': u'http://stiavnickykrostriatlon.sk/wp-content/uploads/2014/06/n_ANEXT.png', 'revision_id': u'fe0a2b32-b902-405c-8eeb-3ac8b04ef153', 'packages': 6, 'type': u'organization', 'id': u'8827ea80-9aa8-4090-907d-b5684efaf704', 'name': u'anext'}, {'display_name': u'Ministerstvo XYZ', 'description': u'Ministerstvo XYZ zastresuje X, poskytuje Y a vydava Z.', 'title': u'Ministerstvo XYZ', 'image_display_url': u'', 'approval_status': u'approved', 'is_organization': True, 'state': u'active', 'image_url': u'', 'revision_id': u'406edb1f-dce2-4815-bbda-b3c7531d2e43', 'packages': 96, 'type': u'organization', 'id': u'7c380c2f-720e-4456-8e65-590ae167c590', 'name': u'ministerstvo-xyz'}, {'display_name': u'Ministerstvo_Y_TEST', 'description': u'', 'title': u'Ministerstvo_Y_TEST', 'image_display_url': u'', 'approval_status': u'approved', 'is_organization': True, 'state': u'active', 'image_url': u'', 'revision_id': u'ada9d439-ca2f-42d6-ba07-9629e171d7d9', 'packages': 2, 'type': u'organization', 'id': u'aa1c26e1-1afc-4b92-9cd9-ae3e4b2b3089', 'name': u'ministerstvo_y_test'}, {'display_name': u'Testovacia organizacia', 'description': u'K tejto organizacii budu priradene testovacie udaje', 'title': u'Testovacia organizacia', 'image_display_url': u'', 'approval_status': u'approved', 'is_organization': True, 'state': u'active', 'image_url': u'', 'revision_id': u'0bbb77ef-f98d-4956-8037-1bf97095ae6d', 'packages': 20, 'type': u'organization', 'id': u'af3ec6cc-113c-495b-8bb3-0c2904397c43', 'name': u'testovacia-organizacia'}]
+2015-03-27 14:53:34,500 INFO  [ckan.lib.base]  /dataset/new render time 0.763 seconds
+2015-03-27 14:53:34,685 INFO  [ckan.lib.base]  /api/i18n/sk render time 0.002 seconds
+2015-03-27 14:53:39,269 INFO  [ckan.lib.base]  /dataset render time 0.974 seconds
+2015-03-27 14:53:39,808 INFO  [ckan.lib.base]  /api/i18n/sk render time 0.004 seconds
+2015-03-27 14:53:40,350 WARNI [root] False
+2015-03-27 14:53:40,351 WARNI [root] http://192.168.21.27:5000/
+2015-03-27 14:53:40,696 INFO  [ckan.lib.base]  /api/3/action/resource_search render time 0.071 seconds
+2015-03-27 14:53:40,699 WARNI [root] False
+2015-03-27 14:53:40,699 WARNI [root] http://192.168.21.27:5000/
+2015-03-27 14:53:40,853 INFO  [ckan.lib.base]  /api/3/action/resource_search render time 0.027 seconds
+2015-03-27 14:53:40,856 WARNI [root] False
+2015-03-27 14:53:40,856 WARNI [root] http://192.168.21.27:5000/
+2015-03-27 14:53:41,008 INFO  [ckan.lib.base]  /api/3/action/resource_search render time 0.027 seconds
+2015-03-27 14:53:41,011 WARNI [root] False
+2015-03-27 14:53:41,011 WARNI [root] http://192.168.21.27:5000/
+2015-03-27 14:53:41,167 INFO  [ckan.lib.base]  /api/3/action/resource_search render time 0.025 seconds
+2015-03-27 14:53:41,170 WARNI [root] False
+2015-03-27 14:53:41,171 WARNI [root] http://192.168.21.27:5000/
+2015-03-27 14:53:41,345 INFO  [ckan.lib.base]  /api/3/action/resource_search render time 0.038 seconds
+2015-03-27 14:53:41,350 WARNI [root] False
+2015-03-27 14:53:41,350 WARNI [root] http://192.168.21.27:5000/
+2015-03-27 14:53:41,680 INFO  [ckan.lib.base]  /api/3/action/resource_search render time 0.044 seconds
+2015-03-27 14:53:41,685 WARNI [root] False
+2015-03-27 14:53:41,686 WARNI [root] http://192.168.21.27:5000/
+2015-03-27 14:53:41,866 INFO  [ckan.lib.base]  /api/3/action/resource_search render time 0.026 seconds
+2015-03-27 14:53:41,868 WARNI [root] False
+2015-03-27 14:53:41,869 WARNI [root] http://192.168.21.27:5000/
+2015-03-27 14:53:42,023 INFO  [ckan.lib.base]  /api/3/action/resource_search render time 0.027 seconds
+2015-03-27 14:53:42,025 WARNI [root] False
+2015-03-27 14:53:42,026 WARNI [root] http://192.168.21.27:5000/
+2015-03-27 14:53:42,178 INFO  [ckan.lib.base]  /api/3/action/resource_search render time 0.026 seconds
+2015-03-27 14:53:42,180 WARNI [root] False
+2015-03-27 14:53:42,180 WARNI [root] http://192.168.21.27:5000/
+2015-03-27 14:53:42,342 INFO  [ckan.lib.base]  /api/3/action/resource_search render time 0.022 seconds
+2015-03-27 14:53:42,409 INFO  [ckan.lib.base]  / render time 2.245 seconds
+2015-03-27 14:53:42,670 INFO  [ckan.lib.base]  /api/i18n/sk render time 0.002 seconds
+2015-03-27 14:54:33,093 INFO  [ckanext.dataset.plugin] ---tag names---
+2015-03-27 14:54:33,093 INFO  [ckanext.dataset.plugin] [u'denne', u'mesa\u010dne', u'nepravidelne', u'polro\u010dne', u'ro\u010dne', u'\u0161tvr\u0165ro\u010dne', u't\xfd\u017edenne']
+2015-03-27 14:54:33,093 INFO  [ckanext.dataset.plugin] Periodicities vocabulary already exists, skipping.
+2015-03-27 14:54:33,101 INFO  [ckanext.dataset.plugin] [u'denne', u'mesa\u010dne', u'nepravidelne', u'polro\u010dne', u'ro\u010dne', u'\u0161tvr\u0165ro\u010dne', u't\xfd\u017edenne']
+2015-03-27 14:54:33,155 INFO  [ckan.lib.base]  /dataset/new_resource/dsadsad render time 0.804 seconds
+2015-03-27 14:54:34,102 INFO  [ckan.lib.base]  /api/i18n/sk render time 0.004 seconds
+2015-03-27 14:54:49,438 INFO  [ckanext.dataset.plugin] ---tag names---
+2015-03-27 14:54:49,438 INFO  [ckanext.dataset.plugin] [u'denne', u'mesa\u010dne', u'nepravidelne', u'polro\u010dne', u'ro\u010dne', u'\u0161tvr\u0165ro\u010dne', u't\xfd\u017edenne']
+2015-03-27 14:54:49,439 INFO  [ckanext.dataset.plugin] Periodicities vocabulary already exists, skipping.
+2015-03-27 14:54:49,455 INFO  [ckanext.dataset.plugin] [u'denne', u'mesa\u010dne', u'nepravidelne', u'polro\u010dne', u'ro\u010dne', u'\u0161tvr\u0165ro\u010dne', u't\xfd\u017edenne']
+2015-03-27 14:54:49,528 INFO  [ckan.lib.base]  /dataset/new_resource/dsadsad render time 0.688 seconds
+2015-03-27 14:54:50,835 INFO  [ckan.lib.base]  /api/i18n/sk render time 0.002 seconds
+2015-03-27 14:57:43,193 INFO  [ckan.lib.base]  /dataset/dsadsad render time 2.789 seconds
+2015-03-27 14:57:45,348 INFO  [ckan.lib.base]  /api/i18n/sk render time 0.004 seconds
+2015-03-27 14:59:09,877 INFO  [ckanext.dataset.plugin] ---tag names---
+2015-03-27 14:59:09,877 INFO  [ckanext.dataset.plugin] [u'denne', u'mesa\u010dne', u'nepravidelne', u'polro\u010dne', u'ro\u010dne', u'\u0161tvr\u0165ro\u010dne', u't\xfd\u017edenne']
+2015-03-27 14:59:09,878 INFO  [ckanext.dataset.plugin] Periodicities vocabulary already exists, skipping.
+2015-03-27 14:59:09,894 INFO  [ckanext.dataset.plugin] [u'denne', u'mesa\u010dne', u'nepravidelne', u'polro\u010dne', u'ro\u010dne', u'\u0161tvr\u0165ro\u010dne', u't\xfd\u017edenne']
+2015-03-27 14:59:09,998 INFO  [ckan.lib.base]  /dataset/new_resource/dsadsad render time 0.725 seconds
+2015-03-27 14:59:10,833 INFO  [ckan.lib.base]  /api/i18n/sk render time 0.004 seconds
+2015-03-27 15:03:36,507 INFO  [ckanext.dataset.plugin] ---tag names---
+2015-03-27 15:03:36,508 INFO  [ckanext.dataset.plugin] [u'denne', u'mesa\u010dne', u'nepravidelne', u'polro\u010dne', u'ro\u010dne', u'\u0161tvr\u0165ro\u010dne', u't\xfd\u017edenne']
+2015-03-27 15:03:36,508 INFO  [ckanext.dataset.plugin] Periodicities vocabulary already exists, skipping.
+2015-03-27 15:03:36,519 INFO  [ckanext.dataset.plugin] [u'denne', u'mesa\u010dne', u'nepravidelne', u'polro\u010dne', u'ro\u010dne', u'\u0161tvr\u0165ro\u010dne', u't\xfd\u017edenne']
+2015-03-27 15:03:36,579 INFO  [ckan.lib.base]  /dataset/new_resource/dsadsad render time 0.370 seconds
+2015-03-27 15:03:37,497 INFO  [ckan.lib.base]  /api/i18n/sk render time 0.002 seconds
+2015-03-27 15:04:44,400 INFO  [ckan.lib.base]  /dataset/dsadsad render time 2.591 seconds
+2015-03-27 15:04:46,069 INFO  [ckan.lib.base]  /api/i18n/sk render time 0.004 seconds
+2015-03-27 15:04:57,608 WARNI [root] False
+2015-03-27 15:04:57,609 WARNI [root] http://192.168.21.27:5000/
+2015-03-27 15:04:57,808 INFO  [ckan.lib.base]  /api/3/action/resource_search render time 0.071 seconds
+2015-03-27 15:04:57,812 WARNI [root] False
+2015-03-27 15:04:57,812 WARNI [root] http://192.168.21.27:5000/
+2015-03-27 15:04:58,125 INFO  [ckan.lib.base]  /api/3/action/resource_search render time 0.028 seconds
+2015-03-27 15:04:58,127 WARNI [root] False
+2015-03-27 15:04:58,128 WARNI [root] http://192.168.21.27:5000/
+2015-03-27 15:04:58,283 INFO  [ckan.lib.base]  /api/3/action/resource_search render time 0.027 seconds
+2015-03-27 15:04:58,285 WARNI [root] False
+2015-03-27 15:04:58,285 WARNI [root] http://192.168.21.27:5000/
+2015-03-27 15:04:58,439 INFO  [ckan.lib.base]  /api/3/action/resource_search render time 0.025 seconds
+2015-03-27 15:04:58,443 WARNI [root] False
+2015-03-27 15:04:58,443 WARNI [root] http://192.168.21.27:5000/
+2015-03-27 15:04:58,603 INFO  [ckan.lib.base]  /api/3/action/resource_search render time 0.027 seconds
+2015-03-27 15:04:58,606 WARNI [root] False
+2015-03-27 15:04:58,606 WARNI [root] http://192.168.21.27:5000/
+2015-03-27 15:04:58,751 INFO  [ckan.lib.base]  /api/3/action/resource_search render time 0.022 seconds
+2015-03-27 15:04:58,754 WARNI [root] False
+2015-03-27 15:04:58,754 WARNI [root] http://192.168.21.27:5000/
+2015-03-27 15:04:58,907 INFO  [ckan.lib.base]  /api/3/action/resource_search render time 0.026 seconds
+2015-03-27 15:04:58,909 WARNI [root] False
+2015-03-27 15:04:58,910 WARNI [root] http://192.168.21.27:5000/
+2015-03-27 15:04:59,062 INFO  [ckan.lib.base]  /api/3/action/resource_search render time 0.027 seconds
+2015-03-27 15:04:59,065 WARNI [root] False
+2015-03-27 15:04:59,065 WARNI [root] http://192.168.21.27:5000/
+2015-03-27 15:04:59,216 INFO  [ckan.lib.base]  /api/3/action/resource_search render time 0.027 seconds
+2015-03-27 15:04:59,219 WARNI [root] False
+2015-03-27 15:04:59,219 WARNI [root] http://192.168.21.27:5000/
+2015-03-27 15:04:59,373 INFO  [ckan.lib.base]  /api/3/action/resource_search render time 0.027 seconds
+2015-03-27 15:04:59,439 INFO  [ckan.lib.base]  / render time 2.118 seconds
+2015-03-27 15:05:00,000 INFO  [ckan.lib.base]  /api/i18n/sk render time 0.002 seconds
+2015-03-27 15:05:11,620 INFO  [ckan.lib.base]  /user/_logout render time 0.018 seconds
+2015-03-27 15:05:11,821 INFO  [ckan.lib.base]  /user/logged_out render time 0.008 seconds
+2015-03-27 15:05:11,989 INFO  [ckan.lib.base]  /user/logged_out_redirect render time 0.041 seconds
+2015-03-27 15:05:12,418 INFO  [ckan.lib.base]  /api/i18n/sk render time 0.002 seconds
+2015-03-27 15:07:05,018 WARNI [root] False
+2015-03-27 15:07:05,019 WARNI [root] http://192.168.21.27:5000/
+2015-03-27 15:07:05,394 INFO  [ckan.lib.base]  /api/3/action/resource_search render time 0.084 seconds
+2015-03-27 15:07:05,398 WARNI [root] False
+2015-03-27 15:07:05,398 WARNI [root] http://192.168.21.27:5000/
+2015-03-27 15:07:05,544 INFO  [ckan.lib.base]  /api/3/action/resource_search render time 0.020 seconds
+2015-03-27 15:07:05,547 WARNI [root] False
+2015-03-27 15:07:05,547 WARNI [root] http://192.168.21.27:5000/
+2015-03-27 15:07:05,693 INFO  [ckan.lib.base]  /api/3/action/resource_search render time 0.021 seconds
+2015-03-27 15:07:05,696 WARNI [root] False
+2015-03-27 15:07:05,696 WARNI [root] http://192.168.21.27:5000/
+2015-03-27 15:07:05,842 INFO  [ckan.lib.base]  /api/3/action/resource_search render time 0.018 seconds
+2015-03-27 15:07:05,845 WARNI [root] False
+2015-03-27 15:07:05,845 WARNI [root] http://192.168.21.27:5000/
+2015-03-27 15:07:05,990 INFO  [ckan.lib.base]  /api/3/action/resource_search render time 0.021 seconds
+2015-03-27 15:07:05,993 WARNI [root] False
+2015-03-27 15:07:05,993 WARNI [root] http://192.168.21.27:5000/
+2015-03-27 15:07:06,139 INFO  [ckan.lib.base]  /api/3/action/resource_search render time 0.020 seconds
+2015-03-27 15:07:06,142 WARNI [root] False
+2015-03-27 15:07:06,142 WARNI [root] http://192.168.21.27:5000/
+2015-03-27 15:07:06,302 INFO  [ckan.lib.base]  /api/3/action/resource_search render time 0.024 seconds
+2015-03-27 15:07:06,305 WARNI [root] False
+2015-03-27 15:07:06,305 WARNI [root] http://192.168.21.27:5000/
+2015-03-27 15:07:06,458 INFO  [ckan.lib.base]  /api/3/action/resource_search render time 0.027 seconds
+2015-03-27 15:07:06,460 WARNI [root] False
+2015-03-27 15:07:06,461 WARNI [root] http://192.168.21.27:5000/
+2015-03-27 15:07:06,614 INFO  [ckan.lib.base]  /api/3/action/resource_search render time 0.026 seconds
+2015-03-27 15:07:06,616 WARNI [root] False
+2015-03-27 15:07:06,617 WARNI [root] http://192.168.21.27:5000/
+2015-03-27 15:07:06,772 INFO  [ckan.lib.base]  /api/3/action/resource_search render time 0.026 seconds
+2015-03-27 15:07:06,840 INFO  [ckan.lib.base]  / render time 1.959 seconds
+2015-03-27 15:07:07,432 INFO  [ckan.lib.base]  /api/i18n/sk render time 0.006 seconds
+2015-03-27 15:07:13,816 INFO  [ckan.lib.base]  /user/login render time 0.084 seconds
+2015-03-27 15:07:14,415 INFO  [ckan.lib.base]  /api/i18n/sk render time 0.004 seconds
+2015-03-27 15:07:15,586 INFO  [ckan.lib.base]  /user/logged_in render time 0.014 seconds
+2015-03-27 15:07:19,693 INFO  [ckan.lib.base]  /user/logged_in render time 3.763 seconds
+2015-03-27 15:07:25,971 INFO  [ckan.lib.base]  /dashboard render time 5.995 seconds
+2015-03-27 15:07:27,004 INFO  [ckan.lib.base]  /api/i18n/sk render time 0.002 seconds
+2015-03-27 15:07:57,226 INFO  [ckan.lib.base]  /user/edit/admin render time 9.514 seconds
+2015-03-27 15:07:58,221 INFO  [ckan.lib.base]  /api/i18n/sk render time 0.004 seconds
+2015-03-27 15:08:02,310 WARNI [root] False
+2015-03-27 15:08:02,310 WARNI [root] http://192.168.21.27:5000/
+2015-03-27 15:08:02,509 INFO  [ckan.lib.base]  /api/3/action/resource_search render time 0.072 seconds
+2015-03-27 15:08:02,513 WARNI [root] False
+2015-03-27 15:08:02,513 WARNI [root] http://192.168.21.27:5000/
+2015-03-27 15:08:02,668 INFO  [ckan.lib.base]  /api/3/action/resource_search render time 0.030 seconds
+2015-03-27 15:08:02,673 WARNI [root] False
+2015-03-27 15:08:02,674 WARNI [root] http://192.168.21.27:5000/
+2015-03-27 15:08:02,993 INFO  [ckan.lib.base]  /api/3/action/resource_search render time 0.036 seconds
+2015-03-27 15:08:02,995 WARNI [root] False
+2015-03-27 15:08:02,995 WARNI [root] http://192.168.21.27:5000/
+2015-03-27 15:08:03,160 INFO  [ckan.lib.base]  /api/3/action/resource_search render time 0.026 seconds
+2015-03-27 15:08:03,162 WARNI [root] False
+2015-03-27 15:08:03,163 WARNI [root] http://192.168.21.27:5000/
+2015-03-27 15:08:03,472 INFO  [ckan.lib.base]  /api/3/action/resource_search render time 0.027 seconds
+2015-03-27 15:08:03,474 WARNI [root] False
+2015-03-27 15:08:03,475 WARNI [root] http://192.168.21.27:5000/
+2015-03-27 15:08:03,629 INFO  [ckan.lib.base]  /api/3/action/resource_search render time 0.026 seconds
+2015-03-27 15:08:03,632 WARNI [root] False
+2015-03-27 15:08:03,632 WARNI [root] http://192.168.21.27:5000/
+2015-03-27 15:08:03,778 INFO  [ckan.lib.base]  /api/3/action/resource_search render time 0.020 seconds
+2015-03-27 15:08:03,781 WARNI [root] False
+2015-03-27 15:08:03,781 WARNI [root] http://192.168.21.27:5000/
+2015-03-27 15:08:03,934 INFO  [ckan.lib.base]  /api/3/action/resource_search render time 0.027 seconds
+2015-03-27 15:08:03,937 WARNI [root] False
+2015-03-27 15:08:03,937 WARNI [root] http://192.168.21.27:5000/
+2015-03-27 15:08:04,085 INFO  [ckan.lib.base]  /api/3/action/resource_search render time 0.021 seconds
+2015-03-27 15:08:04,088 WARNI [root] False
+2015-03-27 15:08:04,088 WARNI [root] http://192.168.21.27:5000/
+2015-03-27 15:08:04,250 INFO  [ckan.lib.base]  /api/3/action/resource_search render time 0.029 seconds
+2015-03-27 15:08:04,320 INFO  [ckan.lib.base]  / render time 2.214 seconds
+2015-03-27 15:08:04,726 INFO  [ckan.lib.base]  /api/i18n/sk render time 0.002 seconds
+2015-03-27 15:11:50,879 INFO  [ckanext.dataset.plugin] ---tag names---
+2015-03-27 15:11:50,879 INFO  [ckanext.dataset.plugin] [u'denne', u'mesa\u010dne', u'nepravidelne', u'polro\u010dne', u'ro\u010dne', u'\u0161tvr\u0165ro\u010dne', u't\xfd\u017edenne']
+2015-03-27 15:11:50,879 INFO  [ckanext.dataset.plugin] Periodicities vocabulary already exists, skipping.
+2015-03-27 15:11:50,888 INFO  [ckanext.dataset.plugin] [u'denne', u'mesa\u010dne', u'nepravidelne', u'polro\u010dne', u'ro\u010dne', u'\u0161tvr\u0165ro\u010dne', u't\xfd\u017edenne']
+2015-03-27 15:11:50,943 INFO  [ckan.lib.base]  /dataset/new_resource/dsadsad render time 0.444 seconds
+2015-03-27 15:11:51,989 INFO  [ckan.lib.base]  /api/i18n/sk render time 0.002 seconds
+2015-03-27 15:15:11,695 INFO  [ckanext.dataset.plugin] ---tag names---
+2015-03-27 15:15:11,696 INFO  [ckanext.dataset.plugin] [u'denne', u'mesa\u010dne', u'nepravidelne', u'polro\u010dne', u'ro\u010dne', u'\u0161tvr\u0165ro\u010dne', u't\xfd\u017edenne']
+2015-03-27 15:15:11,697 INFO  [ckanext.dataset.plugin] Periodicities vocabulary already exists, skipping.
+2015-03-27 15:15:11,714 INFO  [ckanext.dataset.plugin] [u'denne', u'mesa\u010dne', u'nepravidelne', u'polro\u010dne', u'ro\u010dne', u'\u0161tvr\u0165ro\u010dne', u't\xfd\u017edenne']
+2015-03-27 15:15:11,781 INFO  [ckan.lib.base]  /dataset/new_resource/dsadsad render time 0.717 seconds
+2015-03-27 15:15:12,723 INFO  [ckan.lib.base]  /api/i18n/sk render time 0.004 seconds
+2015-03-27 15:17:19,531 INFO  [ckanext.dataset.plugin] ---tag names---
+2015-03-27 15:17:19,531 INFO  [ckanext.dataset.plugin] [u'denne', u'mesa\u010dne', u'nepravidelne', u'polro\u010dne', u'ro\u010dne', u'\u0161tvr\u0165ro\u010dne', u't\xfd\u017edenne']
+2015-03-27 15:17:19,531 INFO  [ckanext.dataset.plugin] Periodicities vocabulary already exists, skipping.
+2015-03-27 15:17:19,544 INFO  [ckanext.dataset.plugin] [u'denne', u'mesa\u010dne', u'nepravidelne', u'polro\u010dne', u'ro\u010dne', u'\u0161tvr\u0165ro\u010dne', u't\xfd\u017edenne']
+2015-03-27 15:17:19,626 INFO  [ckan.lib.base]  /dataset/new_resource/dsadsad render time 0.481 seconds
+2015-03-27 15:17:20,590 INFO  [ckan.lib.base]  /api/i18n/sk render time 0.004 seconds
+2015-03-27 15:17:27,282 WARNI [root] False
+2015-03-27 15:17:27,283 WARNI [root] http://192.168.21.27:5000/
+2015-03-27 15:17:27,505 INFO  [ckan.lib.base]  /api/3/action/resource_search render time 0.085 seconds
+2015-03-27 15:17:27,509 WARNI [root] False
+2015-03-27 15:17:27,509 WARNI [root] http://192.168.21.27:5000/
+2015-03-27 15:17:27,652 INFO  [ckan.lib.base]  /api/3/action/resource_search render time 0.020 seconds
+2015-03-27 15:17:27,655 WARNI [root] False
+2015-03-27 15:17:27,655 WARNI [root] http://192.168.21.27:5000/
+2015-03-27 15:17:27,798 INFO  [ckan.lib.base]  /api/3/action/resource_search render time 0.021 seconds
+2015-03-27 15:17:27,801 WARNI [root] False
+2015-03-27 15:17:27,801 WARNI [root] http://192.168.21.27:5000/
+2015-03-27 15:17:27,945 INFO  [ckan.lib.base]  /api/3/action/resource_search render time 0.018 seconds
+2015-03-27 15:17:27,947 WARNI [root] False
+2015-03-27 15:17:27,948 WARNI [root] http://192.168.21.27:5000/
+2015-03-27 15:17:28,097 INFO  [ckan.lib.base]  /api/3/action/resource_search render time 0.021 seconds
+2015-03-27 15:17:28,100 WARNI [root] False
+2015-03-27 15:17:28,100 WARNI [root] http://192.168.21.27:5000/
+2015-03-27 15:17:28,251 INFO  [ckan.lib.base]  /api/3/action/resource_search render time 0.028 seconds
+2015-03-27 15:17:28,254 WARNI [root] False
+2015-03-27 15:17:28,254 WARNI [root] http://192.168.21.27:5000/
+2015-03-27 15:17:28,405 INFO  [ckan.lib.base]  /api/3/action/resource_search render time 0.026 seconds
+2015-03-27 15:17:28,408 WARNI [root] False
+2015-03-27 15:17:28,408 WARNI [root] http://192.168.21.27:5000/
+2015-03-27 15:17:28,573 INFO  [ckan.lib.base]  /api/3/action/resource_search render time 0.026 seconds
+2015-03-27 15:17:28,575 WARNI [root] False
+2015-03-27 15:17:28,576 WARNI [root] http://192.168.21.27:5000/
+2015-03-27 15:17:28,729 INFO  [ckan.lib.base]  /api/3/action/resource_search render time 0.027 seconds
+2015-03-27 15:17:28,732 WARNI [root] False
+2015-03-27 15:17:28,732 WARNI [root] http://192.168.21.27:5000/
+2015-03-27 15:17:28,885 INFO  [ckan.lib.base]  /api/3/action/resource_search render time 0.027 seconds
+2015-03-27 15:17:28,953 INFO  [ckan.lib.base]  / render time 1.832 seconds
+2015-03-27 15:17:29,438 INFO  [ckan.lib.base]  /api/i18n/sk render time 0.004 seconds
+2015-03-27 15:17:32,361 INFO  [ckan.lib.base]  /dataset render time 0.876 seconds
+2015-03-27 15:17:32,909 INFO  [ckan.lib.base]  /api/i18n/sk render time 0.004 seconds
+2015-03-27 15:17:39,534 INFO  [ckan.lib.base]  /dataset/dsadsad render time 2.520 seconds
+2015-03-27 15:17:40,323 INFO  [ckan.lib.base]  /api/i18n/sk render time 0.004 seconds
+2015-03-27 15:18:01,001 INFO  [ckanext.dataset.plugin] ---tag names---
+2015-03-27 15:18:01,001 INFO  [ckanext.dataset.plugin] [u'denne', u'mesa\u010dne', u'nepravidelne', u'polro\u010dne', u'ro\u010dne', u'\u0161tvr\u0165ro\u010dne', u't\xfd\u017edenne']
+2015-03-27 15:18:01,001 INFO  [ckanext.dataset.plugin] Periodicities vocabulary already exists, skipping.
+2015-03-27 15:18:01,010 INFO  [ckanext.dataset.plugin] [u'denne', u'mesa\u010dne', u'nepravidelne', u'polro\u010dne', u'ro\u010dne', u'\u0161tvr\u0165ro\u010dne', u't\xfd\u017edenne']
+2015-03-27 15:18:01,065 INFO  [ckan.lib.base]  /dataset/new_resource/dsadsad render time 0.956 seconds
+2015-03-27 15:18:02,023 INFO  [ckan.lib.base]  /api/i18n/sk render time 0.002 seconds
+2015-03-27 15:18:18,727 INFO  [ckanext.dataset.plugin] ---tag names---
+2015-03-27 15:18:18,727 INFO  [ckanext.dataset.plugin] [u'denne', u'mesa\u010dne', u'nepravidelne', u'polro\u010dne', u'ro\u010dne', u'\u0161tvr\u0165ro\u010dne', u't\xfd\u017edenne']
+2015-03-27 15:18:18,727 INFO  [ckanext.dataset.plugin] Periodicities vocabulary already exists, skipping.
+2015-03-27 15:18:18,737 INFO  [ckanext.dataset.plugin] [u'denne', u'mesa\u010dne', u'nepravidelne', u'polro\u010dne', u'ro\u010dne', u'\u0161tvr\u0165ro\u010dne', u't\xfd\u017edenne']
+2015-03-27 15:18:18,805 INFO  [ckan.lib.base]  /dataset/new_resource/dsadsad render time 0.417 seconds
+2015-03-27 15:18:19,844 INFO  [ckan.lib.base]  /api/i18n/sk render time 0.004 seconds
+2015-03-27 15:18:54,898 INFO  [ckan.lib.base]  /dataset render time 1.100 seconds
+2015-03-27 15:18:55,856 INFO  [ckan.lib.base]  /api/i18n/sk render time 0.004 seconds
+2015-03-27 15:18:59,599 INFO  [ckan.lib.base]  /dataset/dsadsad render time 2.693 seconds
+2015-03-27 15:19:00,689 INFO  [ckan.lib.base]  /api/i18n/sk render time 0.004 seconds
+2015-03-27 15:19:03,099 WARNI [root] False
+2015-03-27 15:19:03,100 WARNI [root] http://192.168.21.27:5000/
+2015-03-27 15:19:03,294 INFO  [ckan.lib.base]  /api/3/action/resource_search render time 0.071 seconds
+2015-03-27 15:19:03,298 WARNI [root] False
+2015-03-27 15:19:03,298 WARNI [root] http://192.168.21.27:5000/
+2015-03-27 15:19:03,443 INFO  [ckan.lib.base]  /api/3/action/resource_search render time 0.020 seconds
+2015-03-27 15:19:03,445 WARNI [root] False
+2015-03-27 15:19:03,446 WARNI [root] http://192.168.21.27:5000/
+2015-03-27 15:19:03,591 INFO  [ckan.lib.base]  /api/3/action/resource_search render time 0.020 seconds
+2015-03-27 15:19:03,594 WARNI [root] False
+2015-03-27 15:19:03,594 WARNI [root] http://192.168.21.27:5000/
+2015-03-27 15:19:03,743 INFO  [ckan.lib.base]  /api/3/action/resource_search render time 0.024 seconds
+2015-03-27 15:19:03,746 WARNI [root] False
+2015-03-27 15:19:03,746 WARNI [root] http://192.168.21.27:5000/
+2015-03-27 15:19:03,898 INFO  [ckan.lib.base]  /api/3/action/resource_search render time 0.026 seconds
+2015-03-27 15:19:03,901 WARNI [root] False
+2015-03-27 15:19:03,901 WARNI [root] http://192.168.21.27:5000/
+2015-03-27 15:19:04,054 INFO  [ckan.lib.base]  /api/3/action/resource_search render time 0.026 seconds
+2015-03-27 15:19:04,056 WARNI [root] False
+2015-03-27 15:19:04,057 WARNI [root] http://192.168.21.27:5000/
+2015-03-27 15:19:04,221 INFO  [ckan.lib.base]  /api/3/action/resource_search render time 0.030 seconds
+2015-03-27 15:19:04,224 WARNI [root] False
+2015-03-27 15:19:04,224 WARNI [root] http://192.168.21.27:5000/
+2015-03-27 15:19:04,378 INFO  [ckan.lib.base]  /api/3/action/resource_search render time 0.027 seconds
+2015-03-27 15:19:04,380 WARNI [root] False
+2015-03-27 15:19:04,381 WARNI [root] http://192.168.21.27:5000/
+2015-03-27 15:19:04,532 INFO  [ckan.lib.base]  /api/3/action/resource_search render time 0.026 seconds
+2015-03-27 15:19:04,535 WARNI [root] False
+2015-03-27 15:19:04,535 WARNI [root] http://192.168.21.27:5000/
+2015-03-27 15:19:04,680 INFO  [ckan.lib.base]  /api/3/action/resource_search render time 0.020 seconds
+2015-03-27 15:19:04,749 INFO  [ckan.lib.base]  / render time 1.809 seconds
+2015-03-27 15:19:05,624 INFO  [ckan.lib.base]  /api/i18n/sk render time 0.004 seconds
+2015-03-27 15:19:12,111 INFO  [ckan.lib.base]  /dataset/dsadsad render time 3.385 seconds
+2015-03-27 15:19:13,549 INFO  [ckan.lib.base]  /api/i18n/sk render time 0.002 seconds
+2015-03-27 15:19:34,986 INFO  [ckan.lib.base]  /dataset/dsadsad render time 2.489 seconds
+2015-03-27 15:19:36,076 INFO  [ckan.lib.base]  /api/i18n/sk render time 0.002 seconds
+2015-03-27 15:19:48,716 INFO  [ckanext.dataset.plugin] ---tag names---
+2015-03-27 15:19:48,717 INFO  [ckanext.dataset.plugin] [u'denne', u'mesa\u010dne', u'nepravidelne', u'polro\u010dne', u'ro\u010dne', u'\u0161tvr\u0165ro\u010dne', u't\xfd\u017edenne']
+2015-03-27 15:19:48,717 INFO  [ckanext.dataset.plugin] Periodicities vocabulary already exists, skipping.
+2015-03-27 15:19:48,725 INFO  [ckanext.dataset.plugin] [u'denne', u'mesa\u010dne', u'nepravidelne', u'polro\u010dne', u'ro\u010dne', u'\u0161tvr\u0165ro\u010dne', u't\xfd\u017edenne']
+2015-03-27 15:19:48,783 INFO  [ckan.lib.base]  /dataset/new_resource/dsadsad render time 0.935 seconds
+2015-03-27 15:19:49,858 INFO  [ckan.lib.base]  /api/i18n/sk render time 0.006 seconds
+2015-03-27 15:19:52,446 INFO  [ckan.lib.base]  /select2x2.png render time 0.014 seconds
+2015-03-27 15:19:52,707 INFO  [ckan.lib.base]  /select2x2.png render time 0.126 seconds
+2015-03-27 15:20:16,777 INFO  [ckan.lib.base]  /dataset/dsadsad render time 2.086 seconds
+2015-03-27 15:20:18,367 INFO  [ckan.lib.base]  /api/i18n/sk render time 0.002 seconds
+2015-03-27 15:20:18,528 INFO  [ckan.lib.base]  /select2x2.png render time 0.008 seconds
+2015-03-27 15:20:18,748 INFO  [ckan.lib.base]  /select2x2.png render time 0.102 seconds
+2015-03-27 15:21:12,424 INFO  [ckan.lib.base]  /dataset/dsadsad render time 2.848 seconds
+2015-03-27 15:21:20,128 INFO  [ckan.lib.base]  /dataset/dsadsad render time 2.448 seconds
+2015-03-27 15:21:24,113 INFO  [ckan.lib.base]  /api/i18n/sk render time 0.004 seconds
+2015-03-27 15:21:39,188 INFO  [ckanext.dataset.plugin] ---tag names---
+2015-03-27 15:21:39,189 INFO  [ckanext.dataset.plugin] [u'denne', u'mesa\u010dne', u'nepravidelne', u'polro\u010dne', u'ro\u010dne', u'\u0161tvr\u0165ro\u010dne', u't\xfd\u017edenne']
+2015-03-27 15:21:39,189 INFO  [ckanext.dataset.plugin] Periodicities vocabulary already exists, skipping.
+2015-03-27 15:21:39,206 INFO  [ckanext.dataset.plugin] [u'denne', u'mesa\u010dne', u'nepravidelne', u'polro\u010dne', u'ro\u010dne', u'\u0161tvr\u0165ro\u010dne', u't\xfd\u017edenne']
+2015-03-27 15:21:39,279 INFO  [ckan.lib.base]  /dataset/new_resource/dsadsad render time 0.661 seconds
+2015-03-27 15:21:40,221 INFO  [ckan.lib.base]  /api/i18n/sk render time 0.004 seconds
+2015-03-27 15:25:05,047 INFO  [ckan.lib.base]  /dataset/dsadsad render time 2.171 seconds
+2015-03-27 15:25:07,136 INFO  [ckan.lib.base]  /api/i18n/sk render time 0.004 seconds
+2015-03-27 15:25:19,052 INFO  [ckan.lib.base]  /dataset/dsadsad render time 2.561 seconds
+2015-03-27 15:25:21,647 INFO  [ckan.lib.base]  /api/i18n/sk render time 0.004 seconds
+2015-03-27 15:25:39,641 INFO  [ckanext.dataset.plugin] ---tag names---
+2015-03-27 15:25:39,642 INFO  [ckanext.dataset.plugin] [u'denne', u'mesa\u010dne', u'nepravidelne', u'polro\u010dne', u'ro\u010dne', u'\u0161tvr\u0165ro\u010dne', u't\xfd\u017edenne']
+2015-03-27 15:25:39,642 INFO  [ckanext.dataset.plugin] Periodicities vocabulary already exists, skipping.
+2015-03-27 15:25:39,660 INFO  [ckanext.dataset.plugin] [u'denne', u'mesa\u010dne', u'nepravidelne', u'polro\u010dne', u'ro\u010dne', u'\u0161tvr\u0165ro\u010dne', u't\xfd\u017edenne']
+2015-03-27 15:25:39,757 INFO  [ckan.lib.base]  /dataset/new_resource/dsadsad render time 0.730 seconds
+2015-03-27 15:25:40,742 INFO  [ckan.lib.base]  /api/i18n/sk render time 0.002 seconds
+2015-03-27 15:26:00,770 INFO  [ckan.lib.base]  /dataset/dsadsad render time 2.712 seconds
+2015-03-27 15:26:03,760 INFO  [ckan.lib.base]  /api/i18n/sk render time 0.004 seconds
+2015-03-27 15:26:41,791 INFO  [ckan.lib.base]  /dataset/dsadsad render time 2.379 seconds
+2015-03-27 15:26:44,729 INFO  [ckan.lib.base]  /api/i18n/sk render time 0.004 seconds
+2015-03-27 15:27:16,832 INFO  [ckan.lib.base]  /dataset/dsadsad render time 2.376 seconds
+2015-03-27 15:27:19,807 INFO  [ckan.lib.base]  /api/i18n/sk render time 0.004 seconds
+2015-03-27 15:27:43,779 INFO  [ckan.lib.base]  /dataset/dsadsad render time 2.361 seconds
+2015-03-27 15:27:46,082 INFO  [ckan.lib.base]  /api/i18n/sk render time 0.004 seconds
+2015-03-27 15:29:43,131 WARNI [root] False
+2015-03-27 15:29:43,132 WARNI [root] http://192.168.21.27:5000/
+2015-03-27 15:29:43,346 INFO  [ckan.lib.base]  /api/3/action/resource_search render time 0.086 seconds
+2015-03-27 15:29:43,350 WARNI [root] False
+2015-03-27 15:29:43,350 WARNI [root] http://192.168.21.27:5000/
+2015-03-27 15:29:43,499 INFO  [ckan.lib.base]  /api/3/action/resource_search render time 0.021 seconds
+2015-03-27 15:29:43,502 WARNI [root] False
+2015-03-27 15:29:43,502 WARNI [root] http://192.168.21.27:5000/
+2015-03-27 15:29:43,655 INFO  [ckan.lib.base]  /api/3/action/resource_search render time 0.028 seconds
+2015-03-27 15:29:43,658 WARNI [root] False
+2015-03-27 15:29:43,658 WARNI [root] http://192.168.21.27:5000/
+2015-03-27 15:29:43,808 INFO  [ckan.lib.base]  /api/3/action/resource_search render time 0.024 seconds
+2015-03-27 15:29:43,811 WARNI [root] False
+2015-03-27 15:29:43,811 WARNI [root] http://192.168.21.27:5000/
+2015-03-27 15:29:43,974 INFO  [ckan.lib.base]  /api/3/action/resource_search render time 0.030 seconds
+2015-03-27 15:29:43,978 WARNI [root] False
+2015-03-27 15:29:43,978 WARNI [root] http://192.168.21.27:5000/
+2015-03-27 15:29:44,136 INFO  [ckan.lib.base]  /api/3/action/resource_search render time 0.027 seconds
+2015-03-27 15:29:44,138 WARNI [root] False
+2015-03-27 15:29:44,138 WARNI [root] http://192.168.21.27:5000/
+2015-03-27 15:29:44,293 INFO  [ckan.lib.base]  /api/3/action/resource_search render time 0.027 seconds
+2015-03-27 15:29:44,296 WARNI [root] False
+2015-03-27 15:29:44,296 WARNI [root] http://192.168.21.27:5000/
+2015-03-27 15:29:44,451 INFO  [ckan.lib.base]  /api/3/action/resource_search render time 0.026 seconds
+2015-03-27 15:29:44,454 WARNI [root] False
+2015-03-27 15:29:44,454 WARNI [root] http://192.168.21.27:5000/
+2015-03-27 15:29:44,611 INFO  [ckan.lib.base]  /api/3/action/resource_search render time 0.027 seconds
+2015-03-27 15:29:44,614 WARNI [root] False
+2015-03-27 15:29:44,614 WARNI [root] http://192.168.21.27:5000/
+2015-03-27 15:29:44,918 INFO  [ckan.lib.base]  /api/3/action/resource_search render time 0.027 seconds
+2015-03-27 15:29:44,984 INFO  [ckan.lib.base]  / render time 2.126 seconds
+2015-03-27 15:29:45,556 INFO  [ckan.lib.base]  /api/i18n/sk render time 0.004 seconds
+2015-03-27 15:29:45,866 INFO  [ckan.lib.base]  /select2x2.png render time 0.014 seconds
+2015-03-27 15:29:46,163 INFO  [ckan.lib.base]  /select2x2.png render time 0.115 seconds
+2015-03-27 15:29:51,081 INFO  [ckan.lib.base]  /dataset/dsadsad render time 2.579 seconds
+2015-03-27 15:29:52,014 INFO  [ckan.lib.base]  /api/i18n/sk render time 0.002 seconds

@@ -1,0 +1,15 @@
+{%ckan_extends%}
+
+{% block secondary_content %}
+{{super()}}
+
+{% set links = h.get_links(c.user_dict['id']) %}
+{%if links|length != 0 %}
+<h2>{{_('Dataset links:')}}</h2>
+{%endif%}
+<ul>
+ {% for i in links %}
+
+ 	<li><a href='/dataset/{{i}}' >{{h.dataset_name(i)}}</a> </li>
+ {%endfor%}</ul>
+{%endblock%}
