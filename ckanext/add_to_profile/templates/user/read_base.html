@@ -5,11 +5,14 @@
 
 {% set links = h.get_links(c.user_dict['id']) %}
 {%if links|length != 0 %}
+<div style="margin: 1em;">
 <h2>{{_('Dataset links:')}}</h2>
 {%endif%}
-<ul>
- {% for i in links %}
 
- 	<li><a href='/dataset/{{i}}' >{{h.dataset_name(i)}}</a> </li>
- {%endfor%}</ul>
+<ul style="list-style: none;">
+ {% for i in links %}
+	<li><a href='/dataset/{{i.dataset_id}}' >{{h.dataset_name(i.dataset_id)}}</a>{% if c.id == c.user%}<a href="/del_link?id={{i.id}}"> <i class="fa fa-remove"></i></a> {%endif%}</li>
+ {%endfor%}
+</ul>
+</div>
 {%endblock%}

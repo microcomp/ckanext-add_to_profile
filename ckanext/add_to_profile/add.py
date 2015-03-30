@@ -49,7 +49,7 @@ def get_links__(context, data_dict):
     logging.warning(info)
     result = []
     for i in info:
-        result.append(i.dataset_id)
+        result.append(i)
     return result
 def get_name(dataset_id):
 	dataset =  model.Session.query(model.Package).filter(model.Package.id == dataset_id).first()
@@ -67,6 +67,14 @@ def not_id_db(data_dict, context):
 	create_profile_links(context)
 	info = db.ProfileDatasetLinks.get(**data_dict)
 	return len(info) == 0
+
+def logged():
+    context = {'model': model, 'session': model.Session,
+                   'user': c.user or c.author, 'auth_user_obj': c.userobj,
+                   'for_view': True}
+    if c.userobj:
+        return True
+    return False
 class AddController(base.BaseController):
     
     def add_link(self):
@@ -74,15 +82,37 @@ class AddController(base.BaseController):
                    'user': c.user or c.author, 'auth_user_obj': c.userobj,
                    'for_view': True}
         dataset_id = base.request.params.get('dataset_id','')
-
-        if valid_dataset(dataset_id) and c.userobj:
+        if c.userobj == None:
+            base.abort(401, _('Not authorized'))
+        if valid_dataset(dataset_id):
             data_dict = {'dataset_id': dataset_id, 'user_id': c.userobj.id}
         else:
             base.abort(404, _('Dataset not found'))
+
         if not_id_db(data_dict,context):
         	new_link_to_profile(context, data_dict)
 
         return h.redirect_to(controller='package', action='read', id=dataset_id)
+
+    def del_link(self):
+        context = {'model': model, 'session': model.Session,
+                   'user': c.user or c.author, 'auth_user_obj': c.userobj,
+                   'for_view': True}
+        __id = base.request.params.get('id','')
+        data_dict = {"id":__id}
+        if not_id_db(data_dict, context):
+            base.abort(404, _('Dataset not found'))
+        create_profile_links(context)
+        
+        link = db.ProfileDatasetLinks.get(**data_dict)
+        if c.userobj.id == link[0].user_id:
+            db.ProfileDatasetLinks.delete(**data_dict)
+            session = context['session']
+            session.commit()
+        
+
+        return h.redirect_to(controller="user", action="read", id=c.userobj.name)
+
 
 
         

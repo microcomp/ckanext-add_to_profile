@@ -22,8 +22,10 @@ class AddLinkToProfilePlugin(plugins.SingletonPlugin):
 
     def before_map(self, map):
         map.connect('add_link','/add_link', action='add_link', controller='ckanext.add_to_profile.add:AddController')
+        map.connect('del_link','/del_link', action='del_link', controller='ckanext.add_to_profile.add:AddController')
         return map
 
     def get_helpers(self):
         return {'get_links': add.get_links,
-        		'dataset_name': add.get_name}
+        		'dataset_name': add.get_name,
+                'logged': add.logged}
