@@ -24,7 +24,8 @@ setup(
     ],
     entry_points='''
         [ckan.plugins]
-        # Add plugins here, e.g.
         addplugin=ckanext.add_to_profile.plugin:AddLinkToProfilePlugin
+        [babel.extractors]
+        ckan = ckan.lib.extract:extract_ckan
     ''',
 )
