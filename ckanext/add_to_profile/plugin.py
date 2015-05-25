@@ -28,4 +28,5 @@ class AddLinkToProfilePlugin(plugins.SingletonPlugin):
     def get_helpers(self):
         return {'get_links': add.get_links,
         		'dataset_name': add.get_name,
-                'logged': add.logged}
+                'logged': add.logged,
+                'pkg_id': add.pkg_id}
