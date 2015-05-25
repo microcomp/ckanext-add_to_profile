@@ -52,8 +52,17 @@ def get_links__(context, data_dict):
         result.append(i)
     return result
 def get_name(dataset_id):
-	dataset =  model.Session.query(model.Package).filter(model.Package.id == dataset_id).first()
-	return dataset.name
+    dataset =  model.Session.query(model.Package).filter(model.Package.id == dataset_id).first()
+    return dataset.name
+def pkg_id(dataset_name):
+    context = {'model': model, 'session': model.Session,
+                   'user': c.user or c.author, 'auth_user_obj': c.userobj,
+                   'for_view': True}
+
+    dataset = model.Session.query(model.Package).filter(model.Package.name == dataset_name).first()
+    if(dataset == None):
+        dataset = model.Session.query(model.Package).filter(model.Package.id == dataset_name).first()
+    return dataset.id
 def get_links(user_id):
     context = {'model': model, 'session': model.Session,
                    'user': c.user or c.author, 'auth_user_obj': c.userobj,
@@ -64,9 +73,9 @@ def valid_dataset(dataset_id):
     dataset = model.Session.query(model.Package).filter(model.Package.id == dataset_id).all()
     return len(dataset) >= 1
 def not_id_db(data_dict, context):
-	create_profile_links(context)
-	info = db.ProfileDatasetLinks.get(**data_dict)
-	return len(info) == 0
+    create_profile_links(context)
+    info = db.ProfileDatasetLinks.get(**data_dict)
+    return len(info) == 0
 
 def logged():
     context = {'model': model, 'session': model.Session,
@@ -112,7 +121,3 @@ class AddController(base.BaseController):
         
 
         return h.redirect_to(controller="user", action="read", id=c.userobj.name)
-
-
-
-        
