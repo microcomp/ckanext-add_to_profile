@@ -1,7 +1,5 @@
 {%ckan_extends%}
-{% block social %}
-{{super()}}
-   {% block social_nav %}
+{% block social_nav %}
       <ul class="nav nav-simple" style="font-size: 1.2em;">
         <li class="nav-item"><a href="https://plus.google.com/share?url={{ current_url }}" target="_blank"><i class="icon-google-plus-sign"></i> Google+</a></li>
         <li class="nav-item"><a href="https://twitter.com/share?url={{ current_url }}" target="_blank"><i class="icon-twitter-sign"></i> Twitter</a></li>
@@ -11,5 +9,4 @@
         <li class="nav-item"><a href="/add_link?dataset_id={{id}}" title="{{_('add to profile')}}"><i class="fa fa-plus"></i> {{_('Add to profile')}}</a></li>
         {%endif%}
       </ul>
-    {% endblock %}
 {% endblock %}
