@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 import urllib
 
 from sqlalchemy import create_engine
@@ -22,7 +23,55 @@ import db
 abort = base.abort
 _get_action = logic.get_action
 _check_access = logic.check_access
-#log = logging.getLogger('ckanext_apps_and_ideas')
+log = logging.getLogger(__name__)
+
+def _get_user_followers(user_id):
+    context_follow = {'ignore_auth' : True}
+    followers = toolkit.get_action('user_follower_list')(context_follow, {'id' : user_id})
+    users = []
+    for follower in followers:
+        user_obj = model.User.get(follower['id'])
+        #we need to get userobj to get email
+        if user_obj:
+            users.append((user_obj.email, user_obj.fullname))
+    return users
+        
+        
+def link_profile_notification(context, data_dict):
+    dataset_id = data_dict['dataset_id']
+    userobj = model.User.get(data_dict['user_id'])
+    action = data_dict['action']
+    recipients = [(userobj.email, userobj.fullname)]
+    pkg = model.Package.get(dataset_id)
+    
+    if pkg and userobj and not pkg.private:
+        recipients = recipients + _get_user_followers(userobj.id)
+    dataset_read_url = toolkit.url_for(controller='package', action='read',id=dataset_id)
+    if action == 'added':
+        message_action = u'pridal'
+        subject = _('Notification: link added to user profile {0}')
+    elif action == 'deleted':
+        message_action = u'odstránil'
+        subject = _('Notification: link deleted from user profile {0}')
+    subject = subject.format(userobj.fullname)
+    message=u'''
+Dobrý deň {name},
+oznamujeme Vám, že používateľ {profile_name} {action} odkaz vo svojom profile na dataset {pkg_name}.
+V systýme MOD je tento dataset dostupný na URL adrese: {url} .
+
+Tento email Vám bol vygenerovaný automaticky, preto naň, prosím, neodpisujte.
+   
+{signature}
+'''
+    message = message.format(name = '{name}', signature = '{signature}', profile_name = userobj.fullname, action=message_action, pkg_name = pkg.title, url = dataset_read_url)
+    log.info('message template: %s', message)
+    data_notification = {'entity_id' : userobj.id,
+                         'entity_type' : 'user',
+                         'subject' : subject,
+                         'message' : message,
+                         'recipients' : recipients}
+    toolkit.get_action('send_general_notification')(context, data_notification)
+    
 def create_profile_links(context):
     if db.profile_links_table is None:
         db.init_db(context['model'])
@@ -99,7 +148,9 @@ class AddController(base.BaseController):
             base.abort(404, _('Dataset not found'))
 
         if not_id_db(data_dict,context):
-        	new_link_to_profile(context, data_dict)
+            new_link_to_profile(context, data_dict)
+            data_dict['action'] = 'added'
+            link_profile_notification(context, data_dict)
 
         return h.redirect_to(controller='package', action='read', id=dataset_id)
 
@@ -118,6 +169,9 @@ class AddController(base.BaseController):
             db.ProfileDatasetLinks.delete(**data_dict)
             session = context['session']
             session.commit()
+            data_dict['action'] = 'deleted'
+            link_profile_notification(context, data_dict)
+            
         
 
         return h.redirect_to(controller="user", action="read", id=c.userobj.name)
