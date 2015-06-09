@@ -134,6 +134,15 @@ def logged():
     if c.userobj:
         return True
     return False
+
+def inprof(dataset_id):
+    context = {'model': model, 'session': model.Session,
+                   'user': c.user or c.author, 'auth_user_obj': c.userobj,
+                   'for_view': True}
+    data_dict = {'user_id': c.userobj.id, 'dataset_id': conv.convert_package_name_or_id_to_id(dataset_id, context)}
+    create_profile_links(context)
+    info = db.ProfileDatasetLinks.get(**data_dict)
+    return len(info) > 0
 class AddController(base.BaseController):
     
     def add_link(self):
