@@ -9,6 +9,7 @@ import ckan.model as model
 import ckan.logic as logic
 import ckan.lib.base as base
 import ckan.lib.helpers as h
+import ckan.logic.converters as conv
 import ckan.lib.navl.dictization_functions as df
 import ckan.plugins as p
 from ckan.common import _, c
@@ -142,8 +143,8 @@ class AddController(base.BaseController):
         dataset_id = base.request.params.get('dataset_id','')
         if c.userobj == None:
             base.abort(401, _('Not authorized'))
-        if valid_dataset(dataset_id):
-            data_dict = {'dataset_id': dataset_id, 'user_id': c.userobj.id}
+        if valid_dataset(conv.convert_package_name_or_id_to_id(dataset_id, context)):
+            data_dict = {'dataset_id': conv.convert_package_name_or_id_to_id(dataset_id, context), 'user_id': c.userobj.id}
         else:
             base.abort(404, _('Dataset not found'))
 
