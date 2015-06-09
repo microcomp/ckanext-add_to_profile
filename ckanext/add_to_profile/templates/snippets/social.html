@@ -31,7 +31,7 @@
         <li class="nav-item"><a href="https://twitter.com/share?url={{ current_url }}" target="_blank"><i class="icon-twitter-sign"></i> Twitter</a></li>
         <li class="nav-item"><a href="https://www.facebook.com/sharer.php?u={{ current_url }}" target="_blank"><i class="icon-facebook-sign"></i> Facebook</a></li>
         <li class="nav-item"><a href="javascript:Sendit()" title="odoslať odkaz na článok emailom"><i class="fa fa-at"></i> E-mail</a></li>
-        {%if h.in_profile(id)%}
+        {%if h.in_profile(id) == False%}
         {% if h.logged() %}
         <li class="nav-item"><a href="/add_link?dataset_id={{id}}" title="{{_('add to profile')}}"><i class="fa fa-plus"></i> {{_('Add to profile')}}</a></li>
         {%endif%}
