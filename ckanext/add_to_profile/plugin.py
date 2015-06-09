@@ -29,4 +29,5 @@ class AddLinkToProfilePlugin(plugins.SingletonPlugin):
         return {'get_links': add.get_links,
         		'dataset_name': add.get_name,
                 'logged': add.logged,
-                'pkg_id': add.pkg_id}
+                'pkg_id': add.pkg_id,
+                'in_profile': add.inprof}
