@@ -176,11 +176,12 @@ class AddController(base.BaseController):
         
         link = db.ProfileDatasetLinks.get(**data_dict)
         if c.userobj.id == link[0].user_id:
+            dataset_id = link[0].dataset_id
             db.ProfileDatasetLinks.delete(**data_dict)
             session = context['session']
             session.commit()
-            data_dict['action'] = 'deleted'
-            link_profile_notification(context, data_dict)
+            data_notification = {'dataset_id' : dataset_id, 'user_id' : c.userobj.id, 'action' : 'deleted'}
+            link_profile_notification(context, data_notification)
             
         
 
