@@ -146,6 +146,14 @@ def inprof(dataset_id):
         return len(info) > 0
     except AttributeError:
         return False
+def is_resource(resource_id):
+    resource_group_id = model.Session.query(model.Resource).filter(model.Resource.id == resource_id).all()
+    return len(resource_group_id) > 0
+
+def get_dataset_id(resource_id):
+    resource_group_id = model.Session.query(model.Resource).filter(model.Resource.id == resource_id).first().resource_group_id
+    package_id = model.Session.query(model.ResourceGroup).filter(model.ResourceGroup.id == resource_group_id).first().package_id
+    return package_id
 class AddController(base.BaseController):
     
     def add_link(self):
