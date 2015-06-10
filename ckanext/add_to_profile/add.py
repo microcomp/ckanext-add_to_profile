@@ -120,7 +120,12 @@ def get_links(user_id):
     data_dict = {'user_id':user_id}
     return get_links__(context, data_dict)
 def valid_dataset(dataset_id):
-    dataset = model.Session.query(model.Package).filter(model.Package.id == dataset_id).all()
+    if is_resource(dataset_id):
+        return False
+    context = {'model': model, 'session': model.Session,'user': c.user or c.author, 'auth_user_obj': c.userobj,'for_view': True}
+    dat_id  = conv.convert_package_name_or_id_to_id(dataset_id, context)
+    dataset = model.Session.query(model.Package).filter(model.Package.id == dat_id).all()
+
     return len(dataset) >= 1
 def not_id_db(data_dict, context):
     create_profile_links(context)
