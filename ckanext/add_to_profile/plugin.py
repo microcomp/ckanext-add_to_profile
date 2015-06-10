@@ -27,7 +27,8 @@ class AddLinkToProfilePlugin(plugins.SingletonPlugin):
 
     def get_helpers(self):
         return {'get_links': add.get_links,
-        		'dataset_name': add.get_name,
+                'dataset_name': add.get_name,
                 'logged': add.logged,
                 'pkg_id': add.pkg_id,
-                'in_profile': add.inprof}
+                'in_profile': add.inprof,
+                'valid_dataset':add.valid_dataset}
