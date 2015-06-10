@@ -31,4 +31,6 @@ class AddLinkToProfilePlugin(plugins.SingletonPlugin):
                 'logged': add.logged,
                 'pkg_id': add.pkg_id,
                 'in_profile': add.inprof,
-                'valid_dataset':add.valid_dataset}
+                'valid_dataset':add.valid_dataset,
+                'is_resource': add.is_resource,
+                'get_dataset_id': add.get_dataset_id}
