@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ckanext-add_to_profile 0.1\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2015-05-14 14:03+0100\n"
+"POT-Creation-Date: 2015-06-12 18:00+0200\n"
 "PO-Revision-Date: 2015-05-14 14:04+0100\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: sk <LL@li.org>\n"
@@ -20,25 +20,40 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 0.9.6\n"
 
-#: ckanext/add_to_profile/add.py:86
+#: ckanext/add_to_profile/add.py:53
+msgid "Notification: link added to user profile {0}"
+msgstr "Notifikácia: pridaný odkaz na dataset do profilu {0}"
+
+#: ckanext/add_to_profile/add.py:56
+msgid "Notification: link deleted from user profile {0}"
+msgstr "Notifikácia: vymazaný odkaz na dataset z profilu {0}"
+
+#: ckanext/add_to_profile/add.py:170
 msgid "Not authorized"
-msgstr ""
+msgstr "Nemáte povolenie"
 
-#: ckanext/add_to_profile/add.py:90 ckanext/add_to_profile/add.py:104
+#: ckanext/add_to_profile/add.py:174 ckanext/add_to_profile/add.py:190
 msgid "Dataset not found"
-msgstr ""
+msgstr "Dataset sa nepodarilo nájsť"
 
-#: ckanext/add_to_profile/templates/snippers/social.html:11
-#: ckanext/add_to_profile/templates/snippets/social.html:11
+#: ckanext/add_to_profile/templates/snippets/social.html:40
+#: ckanext/add_to_profile/templates/snippets/social.html:44
+#: ckanext/add_to_profile/templates/snippets/social.html:54
+#: ckanext/add_to_profile/templates/snippets/social.html:58
 msgid "add to profile"
-msgstr ""
+msgstr "pridať do profilu"
 
-#: ckanext/add_to_profile/templates/snippers/social.html:11
-#: ckanext/add_to_profile/templates/snippets/social.html:11
+#: ckanext/add_to_profile/templates/snippets/social.html:40
+#: ckanext/add_to_profile/templates/snippets/social.html:54
 msgid "Add to profile"
-msgstr ""
+msgstr "Pridať do profilu"
+
+#: ckanext/add_to_profile/templates/snippets/social.html:44
+#: ckanext/add_to_profile/templates/snippets/social.html:58
+msgid "Added"
+msgstr "Pridané"
 
 #: ckanext/add_to_profile/templates/user/read_base.html:9
 msgid "Dataset links:"
-msgstr ""
+msgstr "Odkazy na datasety:"
 
