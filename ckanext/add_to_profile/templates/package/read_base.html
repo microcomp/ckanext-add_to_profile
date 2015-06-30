@@ -1,5 +1,5 @@
 {%ckan_extends%}
 
   {% block package_social %}
-    {% snippet "snippets/social.html", id=c.current_package_id %}
+    {% snippet "snippets/social.html", id=c.pkg.id %}
   {% endblock %}
