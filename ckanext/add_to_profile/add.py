@@ -1,10 +1,8 @@
 # -*- coding: utf-8 -*-
-import urllib
-
+import urlparse
+import logging
 from sqlalchemy import create_engine
 from sqlalchemy.orm import sessionmaker
-import uuid
-import datetime
 import ckan.model as model
 import ckan.logic as logic
 import ckan.lib.base as base
@@ -14,13 +12,11 @@ import ckan.lib.navl.dictization_functions as df
 import ckan.plugins as p
 from ckan.common import _, c
 import ckan.plugins.toolkit as toolkit
-import urllib2
-import logging
 import ckan.logic
-import __builtin__
+from pylons import config
 
-import json
 import db
+
 abort = base.abort
 _get_action = logic.get_action
 _check_access = logic.check_access
@@ -47,7 +43,8 @@ def link_profile_notification(context, data_dict):
     
     if pkg and userobj and not pkg.private:
         recipients = recipients + _get_user_followers(userobj.id)
-    dataset_read_url = toolkit.url_for(controller='package', action='read',id=dataset_id)
+    dataset_read_url = urlparse.urljoin(config.get('ckan.site_url'),
+                                        toolkit.url_for(controller='package', action='read',id=dataset_id))
     if action == 'added':
         message_action = u'pridal'
         subject = _('Notification: link added to user profile {0}')
