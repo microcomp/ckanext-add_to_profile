@@ -98,9 +98,13 @@ def get_links__(context, data_dict):
     for i in info:
         result.append(i)
     return result
+
 def get_name(dataset_id):
     dataset =  model.Session.query(model.Package).filter(model.Package.id == dataset_id).first()
-    return dataset.name
+    if dataset:
+        return dataset.name
+    return None
+
 def pkg_id(dataset_name):
     context = {'model': model, 'session': model.Session,
                    'user': c.user or c.author, 'auth_user_obj': c.userobj,
