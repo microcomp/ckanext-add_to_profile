@@ -28,8 +28,8 @@
 
       <ul class="nav nav-simple" style="font-size: 1.2em;">
         <li class="nav-item"><a href="https://plus.google.com/share?url={{ current_url }}" target="_blank" title="{{_('Share on')}} Google+. {{_('Warning! This hyperlink will open in a new window or tab (depending on which web browser they are using and how they configured that browser).')}}"><i class="icon-google-plus-sign"></i> Google+</a></li>
-        <li class="nav-item"><a href="https://twitter.com/share?url={{ current_url }}" target="_blank" title="{{_('Share on')}} Twitter. {{_('Warning! This hyperlink will open in a new window or tab (depending on which web browser they are using and how they configured that browser).')}}"><i class="icon-twitter-sign"></i> Twitter</a></li>
-        <li class="nav-item"><a href="https://www.facebook.com/sharer.php?u={{ current_url }}" target="_blank"  title="{{_('Share on')}} Facebook. {{_('Warning! This hyperlink will open in a new window or tab (depending on which web browser they are using and how they configured that browser).')}}"><i class="icon-facebook-sign"></i> Facebook</a></li>
+        <li class="nav-item"><a href="https://twitter.com/share?url={{ current_url }}" target="_blank" title="{{_('Share on')}} Twitter. {{_('-in new window')}}"><i class="icon-twitter-sign"></i> Twitter</a></li>
+        <li class="nav-item"><a href="https://www.facebook.com/sharer.php?u={{ current_url }}" target="_blank"  title="{{_('Share on')}} Facebook. {{_('-in new window')}}"><i class="icon-facebook-sign"></i> Facebook</a></li>
         <li class="nav-item"><a href="javascript:Sendit()" title="{{_('Send link via e-mail')}}"><i class="fa fa-at"></i> E-mail</a></li>
         <!-- odoslať odkaz na článok emailom -->
         {% if h.valid_dataset(id) %}
