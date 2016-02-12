@@ -5,8 +5,8 @@
 
 {% set links = h.get_links(c.user_dict['id']) %}
 {%if links|length != 0 %}
-<div style="margin: 1em;">
-<h2>{{_('Dataset links:')}}</h2>
+<div id="profile_links">
+<h3>{{_('Dataset links:')}}</h3>
 {%endif%}
 
 <ul style="list-style: none;">
