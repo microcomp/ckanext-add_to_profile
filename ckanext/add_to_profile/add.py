@@ -121,11 +121,14 @@ def get_links(user_id):
     data_dict = {'user_id':user_id}
     return get_links__(context, data_dict)
 def valid_dataset(dataset_id):
-    if is_resource(dataset_id):
+    try:
+        if is_resource(dataset_id):
+            return False
+        context = {'model': model, 'session': model.Session,'user': c.user or c.author, 'auth_user_obj': c.userobj,'for_view': True}
+        dat_id  = conv.convert_package_name_or_id_to_id(dataset_id, context)
+        dataset = model.Session.query(model.Package).filter(model.Package.id == dat_id).all()
+    except Exception:
         return False
-    context = {'model': model, 'session': model.Session,'user': c.user or c.author, 'auth_user_obj': c.userobj,'for_view': True}
-    dat_id  = conv.convert_package_name_or_id_to_id(dataset_id, context)
-    dataset = model.Session.query(model.Package).filter(model.Package.id == dat_id).all()
 
     return len(dataset) >= 1
 def not_id_db(data_dict, context):
@@ -153,8 +156,13 @@ def inprof(dataset_id):
     except AttributeError:
         return False
 def is_resource(resource_id):
-    resource_group_id = model.Session.query(model.Resource).filter(model.Resource.id == resource_id).all()
-    return len(resource_group_id) > 0
+    try:
+        resource_group_id = model.Session.query(model.Resource).filter(model.Resource.id == resource_id).all()
+        return len(resource_group_id) > 0
+    except Exception, e:
+        return False
+    
+    
 
 def get_dataset_id(resource_id):
     resource_group_id = model.Session.query(model.Resource).filter(model.Resource.id == resource_id).first().resource_group_id
