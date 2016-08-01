@@ -7,7 +7,7 @@
 
           var bodyText= escape("");
             
-          var bodyUrl="{{ request.host_url }}/dataset/{{id}}";
+          var bodyUrl="http://data.gov.sk/dataset/{{id}}";
               window.open("mailto:"+emailAddr+"?Subject="+subject+"&body="+bodyText+bodyUrl,"_self"); 
           }
         function Sendit(){
